@@ -1,0 +1,144 @@
+body{
+    height: 100vh;
+    position: relative;
+    margin: 0;
+}
+.container{
+    height: 100%;
+    display: block;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nu{
+    background-image: url(https://cdn.cnn.com/cnnnext/dam/assets/220916130716-chris-hemsworth-fitness-app-centr-1-large-169.jpg);
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.bf{
+    font-size: 8px;
+    color: aliceblue;
+   border-bottom: 25px solid rgb(7, 7, 7);
+   border-left: 5px solid transparent;
+   border-right: 5px solid transparent;
+   height: 0;
+   width: 30px;
+   position: absolute;
+   top: 0;
+   right: 0;
+   left: 40%;
+   bottom: 0;
+}
+.lemon1{
+height: 80px;
+width: 60px;
+border-radius: 50px 20px 50px 20px;
+background-color: yellow;
+display: flex;
+text-align: center;
+align-items: flex-end;
+justify-content: center;
+position: absolute;
+top: 20%;
+right: 0;  
+left: 10%;
+bottom: 0;
+border: solid; border-color: black; border-width: 3px;
+font-size: 12px;
+}
+.lemon2{
+height: 80px;
+width: 60px;
+border-radius: 50px 20px 50px 20px;
+background-color: yellow;
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+position: absolute;
+top: 20%;
+right: 15%;  
+border: solid; border-color: black; border-width: 3px;
+
+
+}
+
+strong{
+    color: yellow;
+}
+.myg{
+   
+    position: absolute;
+    top: 70%;
+    right: 15%;
+}
+
+
+@media screen and (min-width: 768px) {
+
+
+
+    .lemon1{
+        height: 140px;
+        width: 100px;
+        border-radius: 50px 20px 50px 20px;
+        background-color: yellow;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 20%;
+        right: 0;  
+        left: 10%;
+        bottom: 0;
+        border: solid; border-color: black; border-width: 3px;
+        }
+        .lemon2{
+        height: 140px;
+        width: 100px;
+        border-radius: 50px 20px 50px 20px;
+        background-color: yellow;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 20%;
+        right: 15%;  
+        border: solid; border-color: black; border-width: 3px;
+        }
+        .myg{
+   
+            position: absolute;
+            top: 80%;
+            right: 15%;
+        }
+        
+        .bf{
+            font-size: 10px;
+            color: aliceblue;
+           border-bottom: 35px solid rgb(7, 7, 7);
+           border-left: 5px solid transparent;
+           border-right: 5px solid transparent;
+           height: 0;
+           width: 50px;
+           position: absolute;
+           top: 0;
+           right: 0;
+           left: 40%;
+           bottom: 0;
+        }
+p{
+    font-size: 18px;
+}
+h5{
+    font-size: 30px;
+}
+}
